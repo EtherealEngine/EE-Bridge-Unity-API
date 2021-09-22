@@ -1,0 +1,46 @@
+{
+  "name": "express-socket.io",
+  "description": "How to use Socket.IO in express.js application - Simple example",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "name": "Nicola Del Gobbo",
+      "email": "nicoladelgobbo@gmail.com"
+    }
+  ],
+  "keywords": [
+    "expressjs",
+    "web",
+    "socket",
+    "socket.io",
+    "realtime",
+    "resources"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickNaso/express-socket.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickNaso/express-socket.io/issues"
+  },
+  "homepage": "http://www.nacios.it/",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "socket.io": "^1.7.2"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "index.js",
+    "server.js"
+  ]
+}

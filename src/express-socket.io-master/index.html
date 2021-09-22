@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web socket test</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      const socket = io.connect('http://localhost:5000')
+      socket.on('server-ping', function (data) {
+        const container =  document.getElementById('container')
+        container.innerHTML = container.innerHTML + '<h4><span style="color:red">Server say => </span> ' + data.message + ' </h4>'
+        const clientMessage = {message: "PONG"}
+        container.innerHTML = container.innerHTML + '<h4><span style="color:green">Client say => </span> ' + clientMessage.message + ' </h4>'
+        socket.emit('client-pong', clientMessage)
+      })
+    </script>
+  </head>
+  <body>
+    <h1>Web socket page test</h1>
+    <div id = "container"></div>
+  </body>
+</html>
