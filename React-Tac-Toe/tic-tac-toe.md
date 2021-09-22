@@ -1,1 +1,3 @@
-A simple prototype, connecting a react app to the XR Engine for multiplayer game scoring.  One player should be able to use the React app, while another plays in the browser from an as yet XR Engine Scene
+A simple prototype, connecting a react app to the XR Engine for game management, no 3D things required yet.
+
+
