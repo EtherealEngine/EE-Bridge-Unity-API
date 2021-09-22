@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 5620aff83d2390741a34444f9f6c46c8
+timeCreated: 1505336172
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Butt_alarm
+    100002: Butt_Close
+    100004: Butt_Down
+    100006: Butt_Open
+    100008: Butt_Up
+    100010: Button_1
+    100012: Button_2
+    100014: Button_3
+    100016: Button_4
+    100018: Button_5
+    100020: Button_6
+    100022: Button_7
+    100024: Button_8
+    100026: Button_9
+    100028: Button_B1
+    100030: Button_B2
+    100032: Button_G
+    100034: Button_R
+    100036: Display
+    100038: Display_2
+    100040: Door_Left
+    100042: Door_Left_out
+    100044: Door_Right
+    100046: Door_Right_out
+    100048: Dummy_Door_Left
+    100050: Dummy_Door_Left_out
+    100052: Dummy_Door_Right
+    100054: Dummy_Door_Right_out
+    100056: //RootNode
+    100058: Elevator
+    100060: Frame
+    100062: Panel
+    100064: Panel 1
+    400000: Butt_alarm
+    400002: Butt_Close
+    400004: Butt_Down
+    400006: Butt_Open
+    400008: Butt_Up
+    400010: Button_1
+    400012: Button_2
+    400014: Button_3
+    400016: Button_4
+    400018: Button_5
+    400020: Button_6
+    400022: Button_7
+    400024: Button_8
+    400026: Button_9
+    400028: Button_B1
+    400030: Button_B2
+    400032: Button_G
+    400034: Button_R
+    400036: Display
+    400038: Display_2
+    400040: Door_Left
+    400042: Door_Left_out
+    400044: Door_Right
+    400046: Door_Right_out
+    400048: Dummy_Door_Left
+    400050: Dummy_Door_Left_out
+    400052: Dummy_Door_Right
+    400054: Dummy_Door_Right_out
+    400056: //RootNode
+    400058: Elevator
+    400060: Frame
+    400062: Panel
+    400064: Panel 1
+    2300000: Butt_alarm
+    2300002: Butt_Close
+    2300004: Butt_Down
+    2300006: Butt_Open
+    2300008: Butt_Up
+    2300010: Button_1
+    2300012: Button_2
+    2300014: Button_3
+    2300016: Button_4
+    2300018: Button_5
+    2300020: Button_6
+    2300022: Button_7
+    2300024: Button_8
+    2300026: Button_9
+    2300028: Button_B1
+    2300030: Button_B2
+    2300032: Button_G
+    2300034: Button_R
+    2300036: Display
+    2300038: Display_2
+    2300040: Door_Left
+    2300042: Door_Left_out
+    2300044: Door_Right
+    2300046: Door_Right_out
+    2300048: Elevator
+    2300050: Frame
+    2300052: Panel 1
+    3300000: Butt_alarm
+    3300002: Butt_Close
+    3300004: Butt_Down
+    3300006: Butt_Open
+    3300008: Butt_Up
+    3300010: Button_1
+    3300012: Button_2
+    3300014: Button_3
+    3300016: Button_4
+    3300018: Button_5
+    3300020: Button_6
+    3300022: Button_7
+    3300024: Button_8
+    3300026: Button_9
+    3300028: Button_B1
+    3300030: Button_B2
+    3300032: Button_G
+    3300034: Button_R
+    3300036: Display
+    3300038: Display_2
+    3300040: Door_Left
+    3300042: Door_Left_out
+    3300044: Door_Right
+    3300046: Door_Right_out
+    3300048: Elevator
+    3300050: Frame
+    3300052: Panel 1
+    4300000: Elevator
+    4300002: Panel
+    4300004: Display
+    4300006: Butt_alarm
+    4300008: Button_5
+    4300010: Butt_Open
+    4300012: Button_B1
+    4300014: Butt_Close
+    4300016: Button_9
+    4300018: Button_1
+    4300020: Button_7
+    4300022: Button_3
+    4300024: Button_G
+    4300026: Button_8
+    4300028: Button_4
+    4300030: Button_R
+    4300032: Button_2
+    4300034: Button_B2
+    4300036: Button_6
+    4300038: Door_Right
+    4300040: Door_Left
+    4300042: Door_Right_out
+    4300044: Display_2
+    4300046: Butt_Up
+    4300048: Butt_Down
+    4300050: Door_Left_out
+    4300052: Frame
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
