@@ -40,6 +40,7 @@ build/Release
 
 # Dependency directories
 node_modules/
+
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -103,3 +104,13 @@ dist
 
 # TernJS port file
 .tern-port
+
+#React Tic-Tac-Toe
+React-Tac-Toe/node_modules/
+
+#XR Engine Mobile
+XR Engine Mobile/Library
+
+#XR Engine Unity API
+XR Engine Unity API/Library
+
