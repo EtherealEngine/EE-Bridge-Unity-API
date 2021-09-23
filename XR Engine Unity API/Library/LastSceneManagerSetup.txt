@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/tic-tac-toe.unity
+- path: Assets/Scenes/TestScene_Socket.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

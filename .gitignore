@@ -103,3 +103,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+XR Engine Unity API/Library/
+XR Engine Unity API/Temp/
+XR Engine Unity API/.vs/
+
+XR Engine Mobile/Library/
+XR Engine Mobile/Temp/
+XR Engine Mobile/.vs/
