@@ -1,46 +1,44 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/atedford/Documents/LagunaLabs/Codign2/XREngine-Unity-Bridge/XREngine-Unity-API/XR
-      Engine Mobile/Packages/manifest.json
+    m_FilePath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637678801170000000
-    m_Hash: 1641546182
+      ticks: 637678999140000000
+    m_Hash: 2906239925
   m_LockFileStatus:
-    m_FilePath: /Users/atedford/Documents/LagunaLabs/Codign2/XREngine-Unity-Bridge/XREngine-Unity-API/XR
-      Engine Mobile/Packages/packages-lock.json
+    m_FilePath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637678801190000000
-    m_Hash: 1049041275
+      ticks: 637678999160000000
+    m_Hash: 1173148608
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.collab-proxy@1.3.9
+    - packageId: com.unity.collab-proxy@1.5.7
       testable: 0
       isDirectDependency: 1
-      version: 1.3.9
+      version: 1.5.7
       source: 1
-      resolvedPath: /Users/atedford/Documents/LagunaLabs/Codign2/XREngine-Unity-Bridge/XREngine-Unity-API/XR
-        Engine Mobile/Library/PackageCache/com.unity.collab-proxy@1.3.9
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.collab-proxy@1.5.7
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
-      displayName: Unity Collaborate
+      displayName: Version Control
       author:
         name: 
         email: 
         url: 
       category: Editor
       type: 
-      description: Collaborate with your teammates with the official version control
-        system for Unity. Collaborate is a simple way for teams to save, share, and
-        sync your Unity project.
+      description: The Version Control package gives you the ability to use either
+        Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
+        SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
+        about how you can get started for free by visiting plasticscm.com.
       status: 4
       errors: []
       versions:
@@ -79,11 +77,11 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
-        - 1.3.9
-        - 1.4.9
         - 1.5.7
         - 1.6.0
+        - 1.7.1
         - 1.8.0
+        - 1.9.0
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -94,9 +92,13 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.3.9
-      dependencies: []
-      resolvedDependencies: []
+        verified: 1.5.7
+      dependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      resolvedDependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
       keywords:
       - vsc
       - version
@@ -120,21 +122,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314349270000000
+      datePublishedTicks: 637551413290000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: fa825106f349f996acff22f718845eab46ca2d7c
+        revision: f079d307344f568804d3ea6d781013135e614e45
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: /Users/atedford/Documents/LagunaLabs/Codign2/XREngine-Unity-Bridge/XREngine-Unity-API/XR
-        Engine Mobile/Library/PackageCache/com.unity.ide.rider@2.0.7
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -208,7 +209,7 @@ m_PackageAssets:
         version: 1.1.1
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.24
+        version: 1.1.27
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -236,13 +237,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.7
+    - packageId: com.unity.ide.visualstudio@2.0.9
       testable: 0
       isDirectDependency: 1
-      version: 2.0.7
+      version: 2.0.9
       source: 1
-      resolvedPath: /Users/atedford/Documents/LagunaLabs/Codign2/XREngine-Unity-Bridge/XREngine-Unity-API/XR
-        Engine Mobile/Library/PackageCache/com.unity.ide.visualstudio@2.0.7
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.ide.visualstudio@2.0.9
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -296,7 +296,7 @@ m_PackageAssets:
         version: 1.1.9
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.24
+        version: 1.1.27
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -316,21 +316,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637486638490000000
+      datePublishedTicks: 637580705480000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: dec282022c7a95fada560c36f53da9dd155a142c
+        revision: c7cd4c6319806423b3d918b3e9599244e3993d41
         path: 
     - packageId: com.unity.ide.vscode@1.2.3
       testable: 0
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: /Users/atedford/Documents/LagunaLabs/Codign2/XREngine-Unity-Bridge/XREngine-Unity-API/XR
-        Engine Mobile/Library/PackageCache/com.unity.ide.vscode@1.2.3
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -396,13 +395,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
-    - packageId: com.unity.test-framework@1.1.24
+    - packageId: com.unity.test-framework@1.1.27
       testable: 0
       isDirectDependency: 1
-      version: 1.1.24
+      version: 1.1.27
       source: 1
-      resolvedPath: /Users/atedford/Documents/LagunaLabs/Codign2/XREngine-Unity-Bridge/XREngine-Unity-API/XR
-        Engine Mobile/Library/PackageCache/com.unity.test-framework@1.1.24
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.test-framework@1.1.27
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -449,8 +447,6 @@ m_PackageAssets:
         - 1.1.27
         - 1.1.29
         compatible:
-        - 1.1.24
-        - 1.1.26
         - 1.1.27
         - 1.1.29
         verified: 1.1.29
@@ -483,21 +479,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637505702940000000
+      datePublishedTicks: 637594751620000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: e6fe8892689398c0d9aba4587e0ba69edc3d82b8
+        revision: c2f2cc9b7ea61d42964257363595dff5e8c47c42
         path: 
-    - packageId: com.unity.textmeshpro@3.0.4
+    - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
       isDirectDependency: 1
-      version: 3.0.4
+      version: 3.0.6
       source: 1
-      resolvedPath: /Users/atedford/Documents/LagunaLabs/Codign2/XREngine-Unity-Bridge/XREngine-Unity-API/XR
-        Engine Mobile/Library/PackageCache/com.unity.textmeshpro@3.0.4
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -612,10 +607,6 @@ m_PackageAssets:
         - 3.0.6
         - 3.2.0-pre.1
         compatible:
-        - 3.0.1
-        - 3.0.3
-        - 3.0.4
-        - 3.0.5
         - 3.0.6
         - 3.2.0-pre.1
         verified: 3.0.6
@@ -647,21 +638,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637492944820000000
+      datePublishedTicks: 637547111200000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-        revision: e2f8dffb26de9a130d5b2140d83891d9a7825330
+        revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
         path: 
-    - packageId: com.unity.timeline@1.4.7
+    - packageId: com.unity.timeline@1.4.8
       testable: 0
       isDirectDependency: 1
-      version: 1.4.7
+      version: 1.4.8
       source: 1
-      resolvedPath: /Users/atedford/Documents/LagunaLabs/Codign2/XREngine-Unity-Bridge/XREngine-Unity-API/XR
-        Engine Mobile/Library/PackageCache/com.unity.timeline@1.4.7
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -743,7 +733,6 @@ m_PackageAssets:
         - 1.6.1
         - 1.6.2
         compatible:
-        - 1.4.7
         - 1.4.8
         - 1.5.0-pre.2
         - 1.5.0-preview.1
@@ -801,20 +790,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637516874380000000
+      datePublishedTicks: 637557616100000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-        revision: 66f96ddbbc76f565093e1e5e5d3d322d28acc7d7
+        revision: 527e4364e28028f20f04fc51db671eb4bb910a26
         path: 
     - packageId: com.unity.ugui@1.0.0
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -877,7 +866,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -925,7 +914,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -973,7 +962,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1021,7 +1010,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1069,7 +1058,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1117,7 +1106,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1169,7 +1158,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.director
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1225,7 +1214,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1274,7 +1263,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1322,7 +1311,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1370,7 +1359,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1418,7 +1407,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1466,7 +1455,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -1514,7 +1503,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -1566,7 +1555,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -1614,7 +1603,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -1670,7 +1659,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -1722,7 +1711,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -1770,7 +1759,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -1834,7 +1823,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -1882,7 +1871,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -1938,7 +1927,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -1986,7 +1975,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2042,7 +2031,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2098,7 +2087,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2154,7 +2143,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2226,7 +2215,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2278,7 +2267,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.video
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2338,7 +2327,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2400,7 +2389,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2448,7 +2437,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -2508,7 +2497,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -2560,7 +2549,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielementsnative
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -2619,8 +2608,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: /Users/atedford/Documents/LagunaLabs/Codign2/XREngine-Unity-Bridge/XREngine-Unity-API/XR
-        Engine Mobile/Library/PackageCache/com.unity.ext.nunit@1.0.6
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2676,8 +2664,81 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
+    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0
+      source: 1
+      resolvedPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0
+      assetPath: Packages/com.unity.nuget.newtonsoft-json
+      name: com.unity.nuget.newtonsoft-json
+      displayName: Newtonsoft Json
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
+        Currently synced to version 12.0.2.
+
+
+        This package is used for advanced
+        json serialization and deserialization. Most Unity users will be better suited
+        using the existing json tools built into Unity.
+
+        To avoid assembly
+        clashes, please use this package if you intend to use Newtonsoft Json.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        verified: 2.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637237898320000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+        revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+        path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: /Users/atedford/Documents/LagunaLabs/Codign2/XREngine-Unity-Bridge/XREngine-Unity-API/XR
-  Engine Mobile/Packages
-m_EditorVersion: 2020.3.7f1 (dd97f2c94397)
+m_ProjectPath: /Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Mobile/Packages
+m_EditorVersion: 2020.3.14f1 (d0d1bb862f9d)
