@@ -6,7 +6,7 @@
   "unity": "2019.2",
   "unityRelease": "6f1",
   "dependencies": {
-    "com.unity.test-framework": "1.1.1"
+    "com.unity.test-framework": "0.0.1-security"
   },
   "relatedPackages": {
     "com.unity.ide.rider.tests": "2.0.7"
