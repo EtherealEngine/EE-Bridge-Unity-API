@@ -32,8 +32,8 @@
   },
   "homepage": "http://www.nacios.it/",
   "dependencies": {
-    "express": "^4.14.0",
-    "morgan": "^1.7.0",
+    "express": "4.17.1",
+    "morgan": "1.10.0",
     "socket.io": "1.7.4"
   },
   "files": [
