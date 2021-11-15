@@ -1,0 +1,564 @@
+{
+  "extensionsUsed": [
+    "Sein_renderer",
+    "Sein_textureImprove",
+    "Sein_physicBody",
+    "Sein_node",
+    "KHR_lights_punctual"
+  ],
+  "extensionsRequired": [
+    "Sein_renderer",
+    "Sein_textureImprove",
+    "Sein_physicBody",
+    "Sein_node",
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "Sphere-primitives-POSITION"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.99997353553771973
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.9999769926071167
+      ],
+      "name": "Sphere-primitives-NORMAL"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.97589123249053955
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.017628978937864304
+      ],
+      "name": "Sphere-primitives-TEXCOORD_0"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        0.65385353565216064
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "Sphere-primitives-TEXCOORD_1"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ],
+      "name": "Sphere-primitives-TANGENT"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Sphere-indices-0"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "Cube-primitives-POSITION"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "name": "Cube-primitives-NORMAL"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "Cube-primitives-TEXCOORD_0"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        0.9966580867767334,
+        0.65283584594726563
+      ],
+      "min": [
+        0.0040557663887739182,
+        0.0040557663887739182
+      ],
+      "name": "Cube-primitives-TEXCOORD_1"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0,
+        1.0
+      ],
+      "name": "Cube-primitives-TANGENT"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Cube-indices-0"
+    }
+  ],
+  "asset": {
+    "generator": "SEIN.JS Toolkit",
+    "version": "2.0",
+    "exporterVersion": "1.2.7"
+  },
+  "buffers": [
+    {
+      "uri": "scene.bin",
+      "byteLength": 34888
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 24,
+      "byteLength": 28840,
+      "byteStride": 56,
+      "name": "Sphere-primitives"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28864,
+      "byteLength": 4608,
+      "name": "Sphere-indices"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 33472,
+      "byteLength": 1344,
+      "byteStride": 56,
+      "name": "Cube-primitives"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 34816,
+      "byteLength": 72,
+      "name": "Cube-indices"
+    }
+  ],
+  "images": [
+    {
+      "uri": "seinjs/demos/lightmapextension/lightmap-0_comp_light.png",
+      "extras": {
+        "type": "HDR",
+        "format": "RGBD"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.60500001907348633
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "Material"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          1.0,
+          0.02520442,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.56000000238418579
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "Material2"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9,
+            "TANGENT": 10
+          },
+          "indices": 11,
+          "material": 1
+        }
+      ],
+      "name": "Cube"
+    }
+  ],
+  "nodes": [
+    {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.06,
+        1.05,
+        -0.33,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "Sphere",
+      "extensions": {
+        "Sein_renderer": {
+          "castShadows": true,
+          "receiveShadows": true,
+          "lightMap": {
+            "uvChannel": 1,
+            "uvRotation": 0,
+            "uvScale": [
+              0.169921815,
+              0.169921815
+            ],
+            "uvOffset": [
+              0.5761719,
+              0.0
+            ],
+            "lightMapIndex": 0
+          }
+        },
+        "Sein_physicBody": {
+          "mass": 1.0,
+          "friction": 0.0,
+          "restitution": 0.0,
+          "unControl": false,
+          "physicStatic": false,
+          "sleeping": true,
+          "colliders": [
+            {
+              "name": "sphere0",
+              "type": "SPHERE",
+              "offset": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "radius": 0.5,
+              "isTrigger": false
+            }
+          ]
+        },
+        "Sein_node": {
+          "selfType": 2,
+          "childrenType": 1,
+          "className": "",
+          "tag": "",
+          "layer": 268435455,
+          "persistent": false,
+          "emitComponentsDestroy": true,
+          "updateOnEverTick": true,
+          "isStatic": false,
+          "skipThisNode": false
+        }
+      }
+    },
+    {
+      "matrix": [
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "Cube",
+      "extensions": {
+        "Sein_renderer": {
+          "castShadows": true,
+          "receiveShadows": true,
+          "lightMap": {
+            "uvChannel": 1,
+            "uvRotation": 0,
+            "uvScale": [
+              0.5765306,
+              0.5765306
+            ],
+            "uvOffset": [
+              -0.00233827322,
+              -0.00233827322
+            ],
+            "lightMapIndex": 0
+          }
+        },
+        "Sein_physicBody": {
+          "mass": 1.0,
+          "friction": 0.0,
+          "restitution": 0.0,
+          "unControl": false,
+          "physicStatic": false,
+          "sleeping": true,
+          "colliders": [
+            {
+              "name": "box0",
+              "type": "BOX",
+              "offset": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "size": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "isTrigger": false
+            }
+          ]
+        },
+        "Sein_node": {
+          "selfType": 2,
+          "childrenType": 1,
+          "className": "",
+          "tag": "",
+          "layer": 268435455,
+          "persistent": false,
+          "emitComponentsDestroy": true,
+          "updateOnEverTick": true,
+          "isStatic": false,
+          "skipThisNode": false
+        }
+      }
+    },
+    {
+      "matrix": [
+        0.0439847074,
+        -0.19501321,
+        -0.9798139,
+        0.0,
+        -0.851652145,
+        0.5053887,
+        -0.138819441,
+        0.0,
+        0.5222586,
+        0.8405665,
+        -0.143854126,
+        0.0,
+        3.76,
+        4.42,
+        1.05,
+        1.0
+      ],
+      "name": "Directional Light",
+      "extensions": {
+        "Sein_node": {
+          "selfType": 2,
+          "childrenType": 1,
+          "className": "",
+          "tag": "",
+          "layer": 268435455,
+          "persistent": false,
+          "emitComponentsDestroy": true,
+          "updateOnEverTick": true,
+          "isStatic": false,
+          "skipThisNode": false
+        }
+      }
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9985,
+      "wrapS": 33071,
+      "wrapT": 33071
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "extensions": {
+        "Sein_textureImprove": {
+          "isImageCanRelease": false,
+          "anisotropic": 3,
+          "textureType": 5121
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "Sein_renderer": {
+      "gammaCorrection": false,
+      "useHDR": false,
+      "exposure": 0.0
+    }
+  }
+}

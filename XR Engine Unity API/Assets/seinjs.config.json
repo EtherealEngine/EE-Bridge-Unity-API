@@ -1,0 +1,39 @@
+{
+  "exportPath": "../Output",
+  "importPath": "/Users/dtysky/Projects/seinjs/SeinJSUnityToolkit/project",
+  "exporterSettings": {
+    "Export": {
+      "folder": "/Users/navdeep/NodeJS/XREngine-Unity-API/XR Engine Unity API/Output",
+      "name": "scene",
+      "splitChunks": false,
+      "skybox": true,
+      "unlit": false,
+      "noVertexColor": false,
+      "checkEmpty": true,
+      "clear": true
+    },
+    "Animation": {
+      "forceLinear": true
+    },
+    "NormalTexture": {
+      "maxSize": 1024,
+      "transparentType": 1,
+      "opaqueType": 1,
+      "pngFormat": 4,
+      "jpgQulity": 85
+    },
+    "HDR": {
+      "type": 1
+    },
+    "CubeTexture": {
+      "maxSize": 1024
+    },
+    "Lighting": {
+      "ambient": false,
+      "lightMap": true,
+      "lightMapSize": 1024,
+      "reflection": true,
+      "reflectionSize": 1024
+    }
+  }
+}

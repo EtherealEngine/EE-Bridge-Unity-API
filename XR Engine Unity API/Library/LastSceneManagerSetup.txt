@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/TestScene_Socket.unity
+- path: Assets/SeinJS/Demos/LightMapExtension.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
