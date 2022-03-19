@@ -1,4 +1,4 @@
-image: node:6.10.0
+image: node:6.17.1
 
 stages:
   - push_to_packman_staging
